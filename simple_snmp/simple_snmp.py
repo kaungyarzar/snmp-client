@@ -284,7 +284,7 @@ class DEVICE():
                           lexicographicMode=False
                           )
 
-        while 1:
+        while True:
             try:
                 errorIndication, errorStatus, errorIndex, varBinds = next(g)
                 if errorIndication:
